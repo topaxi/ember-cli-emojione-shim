@@ -1,6 +1,20 @@
-# Ember-emojione-shim
+# Ember-cli-emojione-shim
 
-This README outlines the details of collaborating on this Ember addon.
+ember-cli shim for [emojione](http://emojione.com/).
+
+## Usage
+
+Import emojione css in `app/styles/app.css`:
+```css
+@import 'emojione/css/emojione.css';
+```
+
+Import emojione js in app code:
+```javascript
+import emojione from 'emojione'
+
+emojione.shortnameToImage(':smile:')
+```
 
 ## Installation
 
