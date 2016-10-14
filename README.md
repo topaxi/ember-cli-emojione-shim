@@ -16,6 +16,9 @@ import emojione from 'emojione'
 emojione.shortnameToImage(':smile:')
 ```
 
+For more examples, checkout the official emojione docs:
+http://git.emojione.com/demos/latest/index.html#js
+
 ## Installation
 
 * `git clone` this repository
